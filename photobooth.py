@@ -1,22 +1,4 @@
-'''from gpiozero import LED, Button
-from time import sleep
-from random import uniform
 
-booth_power_led = LED(4)
-start_button = Button(18)
-
-
-booth_power_led.on()
-#sleep(3)
-
-sleep(uniform(5, 10))
-#led.off()
-
-def start_booth(button):
-    print('starting booth')
-
-start_button.when_pressed = start_booth
-'''
 from gpiozero import LED, Button
 from signal import pause
 import time
